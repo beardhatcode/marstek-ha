@@ -6,7 +6,7 @@ from typing import Final
 
 from homeassistant.const import Platform
 
-DOMAIN: Final = "marstek"
+DOMAIN: Final = "marstek_local_api"
 
 PLATFORMS: Final[list[Platform]] = [
     Platform.SENSOR,

@@ -1,12 +1,26 @@
 {
-  "domain": "marstek",
-  "name": "Marstek",
-  "codeowners": ["@MarstekEnergy"],
+  "domain": "marstek_local_api",
+  "name": "Marstek Local API tmp",
+  "codeowners": [
+    "@MarstekEnergy",
+    "@beardhatcode"
+  ],
   "config_flow": true,
-  "dependencies": ["network"],
-  "documentation": "https://www.home-assistant.io/integrations/marstek",
+  "dependencies": [
+    "network"
+  ],
+  "dhcp": [
+    {
+      "macaddress": "60CF84*"
+    }
+  ],
+  "documentation": "https://example.com",
   "integration_type": "device",
   "iot_class": "local_polling",
+  "issue_tracker": "https://example.com",
   "quality_scale": "bronze",
-  "requirements": ["py-marstek==0.2.0"]
+  "requirements": [
+    "py-marstek==0.2.0"
+  ],
+  "version": "0.0.1"
 }
